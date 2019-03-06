@@ -9,4 +9,3 @@ C:\jcm.projects\Personal\SideKick\SideKick.App\SideKick.App\SideKick.App\obj\Deb
 C:\jcm.projects\Personal\SideKick\SideKick.App\SideKick.App\SideKick.App\obj\Debug\netstandard2.0\SideKick.App.dll
 C:\jcm.projects\Personal\SideKick\SideKick.App\SideKick.App\SideKick.App\obj\Debug\netstandard2.0\SideKick.App.pdb
 C:\jcm.projects\Personal\SideKick\SideKick.App\SideKick.App\SideKick.App\obj\Debug\netstandard2.0\View\MainPage.xaml.g.cs
-C:\jcm.projects\Personal\SideKick\SideKick.App\SideKick.App\SideKick.App\obj\Debug\netstandard2.0\XamlC.stamp

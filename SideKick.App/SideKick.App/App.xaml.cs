@@ -1,4 +1,8 @@
-﻿using SideKick.App.Model.Services;
+﻿using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
+using SideKick.App.Model.Services;
+using SideKick.App.Utilities;
 using SideKick.App.View;
 using System;
 using Xamarin.Forms;
@@ -19,6 +23,7 @@ namespace SideKick.App
         protected override void OnStart()
         {
             // Handle when your app starts
+            AppCenter.Start($"android={AppConstants.APP_CENTER_ANDROID}", typeof(Analytics), typeof(Crashes));
         }
 
         protected override void OnSleep()

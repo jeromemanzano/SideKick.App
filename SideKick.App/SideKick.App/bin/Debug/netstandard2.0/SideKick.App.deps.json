@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "efbbb245616a4c8dd704ffce2439f8edd0105983"
+    "signature": "7a2453aaa44c7b4ed1e768a3e1d1ebaf3274fa93"
   },
   "compilationOptions": {},
   "targets": {
@@ -10,6 +10,8 @@
       "SideKick.App/1.0.0": {
         "dependencies": {
           "Autofac": "4.9.1",
+          "Microsoft.AppCenter": "1.13.2",
+          "Microsoft.AppCenter.Crashes": "1.13.2",
           "NETStandard.Library": "2.0.3",
           "Xamarin.Forms": "3.4.0.1008975"
         },
@@ -22,6 +24,25 @@
           "lib/netstandard2.0/Autofac.dll": {
             "assemblyVersion": "4.9.1.0",
             "fileVersion": "4.9.1.0"
+          }
+        }
+      },
+      "Microsoft.AppCenter/1.13.2": {
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.AppCenter.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "1.13.2.0"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Crashes/1.13.2": {
+        "dependencies": {
+          "Microsoft.AppCenter": "1.13.2"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.AppCenter.Crashes.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "1.13.2.0"
           }
         }
       },
@@ -61,6 +82,20 @@
       "sha512": "sha512-L92DMQxpy4Xw3IypXxL8Z4NHt+qIkB1e0NB2OJ9u105Xp5sVsZSJ04YtYyubmM3KG8aC+WpyBhN14XcjPx5gLg==",
       "path": "autofac/4.9.1",
       "hashPath": "autofac.4.9.1.nupkg.sha512"
+    },
+    "Microsoft.AppCenter/1.13.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/CCy+QGaeb09a3ukQcMYgmEmqNGHi1MSo4hI8zedtJ/I8mZkO8cLJw8T6sVzRK3dv6CHXII5E/LNlyLxBKgvMw==",
+      "path": "microsoft.appcenter/1.13.2",
+      "hashPath": "microsoft.appcenter.1.13.2.nupkg.sha512"
+    },
+    "Microsoft.AppCenter.Crashes/1.13.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4qq286PwlYzJQ5oAAGYKgJxEPXuyaFHLkpvb8hVkj9Lr5tL6PVaNwD7pctpQ1U6hlkBDZCbIsdW6OGZCm7DL6w==",
+      "path": "microsoft.appcenter.crashes/1.13.2",
+      "hashPath": "microsoft.appcenter.crashes.1.13.2.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
