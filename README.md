@@ -1,4 +1,3 @@
-# SideKick.App
 # Requirements
 - Initial screen says, "Hello World". After a few seconds, transition to a new screen.
 - The new screen shows a username, avatar, and their local timezone HH:MM in 24 hours mode (local time).
