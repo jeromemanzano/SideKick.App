@@ -18,5 +18,6 @@
 
 # Additional Feature
 - Added handling for Landscape Orientation
+- Setup AppCenter. App can be downloaded [here](https://install.appcenter.ms/users/jeromemanzano-personal.com/apps/sidekick-test/distribution_groups/public)
 
 ![Alt Text](https://i.ibb.co/jf0d5Kp/Landscape-Side-Kick.png)
