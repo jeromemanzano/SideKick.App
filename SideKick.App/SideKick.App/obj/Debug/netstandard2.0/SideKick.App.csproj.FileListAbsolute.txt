@@ -1,0 +1,12 @@
+C:\jcm.projects\Personal\SideKick\SideKick.App\SideKick.App\SideKick.App\bin\Debug\netstandard2.0\SideKick.App.deps.json
+C:\jcm.projects\Personal\SideKick\SideKick.App\SideKick.App\SideKick.App\bin\Debug\netstandard2.0\SideKick.App.dll
+C:\jcm.projects\Personal\SideKick\SideKick.App\SideKick.App\SideKick.App\bin\Debug\netstandard2.0\SideKick.App.pdb
+C:\jcm.projects\Personal\SideKick\SideKick.App\SideKick.App\SideKick.App\obj\Debug\netstandard2.0\SideKick.App.csprojAssemblyReference.cache
+C:\jcm.projects\Personal\SideKick\SideKick.App\SideKick.App\SideKick.App\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\jcm.projects\Personal\SideKick\SideKick.App\SideKick.App\SideKick.App\obj\Debug\netstandard2.0\SideKick.App.csproj.CoreCompileInputs.cache
+C:\jcm.projects\Personal\SideKick\SideKick.App\SideKick.App\SideKick.App\obj\Debug\netstandard2.0\SideKick.App.AssemblyInfoInputs.cache
+C:\jcm.projects\Personal\SideKick\SideKick.App\SideKick.App\SideKick.App\obj\Debug\netstandard2.0\SideKick.App.AssemblyInfo.cs
+C:\jcm.projects\Personal\SideKick\SideKick.App\SideKick.App\SideKick.App\obj\Debug\netstandard2.0\SideKick.App.dll
+C:\jcm.projects\Personal\SideKick\SideKick.App\SideKick.App\SideKick.App\obj\Debug\netstandard2.0\SideKick.App.pdb
+C:\jcm.projects\Personal\SideKick\SideKick.App\SideKick.App\SideKick.App\obj\Debug\netstandard2.0\View\MainPage.xaml.g.cs
+C:\jcm.projects\Personal\SideKick\SideKick.App\SideKick.App\SideKick.App\obj\Debug\netstandard2.0\XamlC.stamp

@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="SideKick.App.View.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    BackgroundColor="White">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="Header" TargetType="Label">
+                <Setter Property="Opacity" Value=".5" />
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="TextColor" Value="Black" />
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="VerticalOptions" Value="End" />
+            </Style>
+            <Style x:Key="Time" TargetType="Label">
+                <Setter Property="FontSize" Value="Large" />
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="VerticalOptions" Value="Start" />
+                <Setter Property="TextColor" Value="Black" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <Grid
+            ColumnSpacing="0"
+            RowSpacing="10"
+            VerticalOptions="FillAndExpand">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <StackLayout
+                x:Name="TopLayout"
+                Grid.Row="0"
+                Grid.Column="0"
+                Grid.ColumnSpan="4"
+                Padding="20"
+                BackgroundColor="#7A0620">
+                <Image
+                    HeightRequest="50"
+                    HorizontalOptions="Center"
+                    Source="{Binding Avatar}" />
+            </StackLayout>
+            <Label
+                Grid.Row="1"
+                Grid.Column="0"
+                Style="{StaticResource Header}"
+                Text="Hour" />
+            <Label
+                Grid.Row="2"
+                Grid.Column="0"
+                Style="{StaticResource Time}"
+                Text="{Binding TimeDisplay, StringFormat='{0:HH}'}" />
+            <Label
+                Grid.Row="1"
+                Grid.Column="1"
+                Style="{StaticResource Header}"
+                Text="Minute" />
+            <Label
+                Grid.Row="2"
+                Grid.Column="1"
+                Style="{StaticResource Time}"
+                Text="{Binding TimeDisplay, StringFormat='{0:mm}'}" />
+            <Label
+                Grid.Row="1"
+                Grid.Column="2"
+                Style="{StaticResource Header}"
+                Text="Second" />
+            <Label
+                Grid.Row="2"
+                Grid.Column="2"
+                Style="{StaticResource Time}"
+                Text="{Binding TimeDisplay, StringFormat='{0:ss}'}" />
+            <Button
+                Grid.Row="1"
+                Grid.RowSpan="2"
+                Grid.Column="3"
+                Margin="5"
+                BackgroundColor="#364D4D"
+                BorderRadius="50"
+                Command="{Binding MinusOneCommand}"
+                HeightRequest="80"
+                Text="-1 Hour"
+                TextColor="White"
+                VerticalOptions="Center"
+                WidthRequest="80" />
+            <Button
+                Grid.Row="3"
+                Grid.Column="0"
+                Grid.ColumnSpan="4"
+                Margin="20"
+                Padding="20"
+                BackgroundColor="#364D4D"
+                Command="{Binding ExitCommand}"
+                CornerRadius="5"
+                Text="EXIT"
+                TextColor="White" />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
