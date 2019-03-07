@@ -2,7 +2,7 @@
 using Microsoft.AppCenter.Analytics;
 using Microsoft.AppCenter.Crashes;
 using SideKick.App.Model.Services;
-using SideKick.App.Utilities;
+using SideKick.App.Utilities.Helpers;
 using SideKick.App.View;
 using System;
 using Xamarin.Forms;

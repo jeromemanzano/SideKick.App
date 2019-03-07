@@ -6,10 +6,10 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
-using SideKick.App.Utilities;
 using Autofac;
 using SideKick.App.Droid.Services;
 using Plugin.CurrentActivity;
+using SideKick.App.Utilities.Modules;
 
 namespace SideKick.App.Droid
 {

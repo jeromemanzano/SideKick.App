@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SideKick.App.Utilities
+namespace SideKick.App.Utilities.Modules
 {
     public class AutofacBootstrapper
     {        
