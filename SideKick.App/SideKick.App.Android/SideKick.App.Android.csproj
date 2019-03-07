@@ -20,7 +20,7 @@
     <AndroidHttpClientHandlerType>Xamarin.Android.Net.AndroidClientHandler</AndroidHttpClientHandlerType>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
-    <AndroidKeyStore>false</AndroidKeyStore>
+    <AndroidKeyStore>true</AndroidKeyStore>
     <AndroidSigningKeyStore>C:\Program Files\Java\jre1.8.0_144\bin\sidekick.keystore</AndroidSigningKeyStore>
     <AndroidSigningStorePass>password123</AndroidSigningStorePass>
     <AndroidSigningKeyAlias>sidekickdev</AndroidSigningKeyAlias>
